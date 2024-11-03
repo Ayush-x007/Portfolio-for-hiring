@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Ayush</a>
+
+        <nav>
+            <a href="index.html"> Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="education.html">Education</a>
+            <a href="Blogs.html">Blogs</a>
+            <a href="contact.html" class="active">Contact Me</a>
+        </nav>
+    </header>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div id="footersection">
+            <div class="contact-card">
+                <form id="form">
+                    <div class="group-form">
+                        <label for="name">Name :</label>
+                        <input type="text" id="name" name="name" placeholder=" Enter Your name" required>
+                    </div>
+
+                    <div class="group-form">
+                        <label for="email">Email :</label>
+                        <input type="text" id="email" name="email" placeholder="Enter your Email" required>
+                    </div>
+
+                    <div class="google-form">
+                        <label for="message">Message :</label>
+                    </div>
+                        <textarea type="text" id="message" name="message" placeholder="Type your message" required></textarea>
+
+                    <div>
+                        <button type="submit" id="button">Send message 🚀</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <Section id="email"> 
+        <div class="email-card">
+            <div class="email-header">
+              <h3>Mail me at</h3> 
+            </div>  
+            <div class="email-body">
+                <img src="Mail.jpg" alt="">
+              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCKHRMJxKsMdsJhqFjgNKMVkXZbHhcCkLmfbDxgmLDKmSWgfHBVvcqqTfxwmqxWQhLBNRBML">ayushmantripathy2021@gmail.com</a>
+            </div>
+        </div>
+    </Section>
+    <section id="showcase">
+        <div>
+            <h4>Let's chat.
+                <br>Tell me about your 
+                <br><span>project</span></h4>
+            <p>Let's create something together 🤟🏻</p>
+        </div>
+    </section>
+    <script src="contact.js"></script>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('keK2DFhsg6Q8VVz8x')
+</script>
+</body>
+</html>
